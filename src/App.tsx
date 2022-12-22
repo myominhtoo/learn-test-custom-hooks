@@ -1,4 +1,5 @@
 import { StorageDemo } from "./hooks/useStorage/StorageDemo";
+import UseCssDemo from "./hooks/useStyle/UseCssDemo";
 import UserSubjectDemo from "./hooks/useSubject/UseSubjectDemo";
 import { ToggleDemo } from "./hooks/useToggle/ToggleDemo";
 
@@ -13,6 +14,8 @@ function App(){
      <StorageDemo />
      <br/>
      <UserSubjectDemo />
+     <br/>
+     <UseCssDemo />
     </>
   );
 }
