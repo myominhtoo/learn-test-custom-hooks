@@ -1,3 +1,4 @@
+import UseEventListenerDemo from "./hooks/useEventListener/UseEventListenerDemo";
 import { StorageDemo } from "./hooks/useStorage/StorageDemo";
 import UseCssDemo from "./hooks/useStyle/UseCssDemo";
 import UserSubjectDemo from "./hooks/useSubject/UseSubjectDemo";
@@ -16,6 +17,8 @@ function App(){
      <UserSubjectDemo />
      <br/>
      <UseCssDemo />
+     <br/>
+     <UseEventListenerDemo />
     </>
   );
 }
