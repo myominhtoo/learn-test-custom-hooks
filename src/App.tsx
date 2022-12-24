@@ -1,4 +1,5 @@
 import UseEventListenerDemo from "./hooks/useEventListener/UseEventListenerDemo";
+import UsePaginationDemo from "./hooks/usePagination/UsePaginationDemo";
 import { StorageDemo } from "./hooks/useStorage/StorageDemo";
 import UseCssDemo from "./hooks/useStyle/UseCssDemo";
 import UserSubjectDemo from "./hooks/useSubject/UseSubjectDemo";
@@ -9,7 +10,7 @@ function App(){
   return (
     <>
      <h1>Testing Custom Hooks!</h1>
-     <br/>
+     {/* <br/>
      <ToggleDemo />
      <br/>
      <StorageDemo />
@@ -18,7 +19,8 @@ function App(){
      <br/>
      <UseCssDemo />
      <br/>
-     <UseEventListenerDemo />
+     <UseEventListenerDemo /> */}
+     <UsePaginationDemo />
     </>
   );
 }
