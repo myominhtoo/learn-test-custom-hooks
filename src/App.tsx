@@ -3,6 +3,7 @@ import UsePaginationDemo from "./hooks/usePagination/UsePaginationDemo";
 import { StorageDemo } from "./hooks/useStorage/StorageDemo";
 import UseCssDemo from "./hooks/useStyle/UseCssDemo";
 import UserSubjectDemo from "./hooks/useSubject/UseSubjectDemo";
+import UseTabDemo from "./hooks/useTabs/UseTabDemo";
 import { ToggleDemo } from "./hooks/useToggle/ToggleDemo";
 
 
@@ -20,7 +21,8 @@ function App(){
      <UseCssDemo />
      <br/>
      <UseEventListenerDemo /> */}
-     <UsePaginationDemo />
+     {/* <UsePaginationDemo /> */}
+     <UseTabDemo />
     </>
   );
 }
