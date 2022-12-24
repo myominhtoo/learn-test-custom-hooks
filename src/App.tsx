@@ -1,4 +1,5 @@
 import UseEventListenerDemo from "./hooks/useEventListener/UseEventListenerDemo";
+import UseHTTPClientDemo from "./hooks/useHttpClient/UseHttpClientDemo";
 import UsePaginationDemo from "./hooks/usePagination/UsePaginationDemo";
 import { StorageDemo } from "./hooks/useStorage/StorageDemo";
 import UseCssDemo from "./hooks/useStyle/UseCssDemo";
@@ -22,7 +23,10 @@ function App(){
      <br/>
      <UseEventListenerDemo /> */}
      {/* <UsePaginationDemo /> */}
-     <UseTabDemo />
+     {/* <UseTabDemo />
+      */}
+      
+      <UseHTTPClientDemo />
     </>
   );
 }

@@ -5,11 +5,11 @@ type Tab = {
     element : React.ReactNode
 }
 
-export default function useTabs( tabs : Tab [] ){   
+export default function useTabs( tabs : Tab [] ){  
+
     const [ currentElement , setCurrentElement ] = useState<React.ReactNode>(null);
 
     const memorizedTabs = useMemo(() => {
-        console.log('memo tabs')
         return tabs.map( tab => tab.key );
     } , [tabs]);
 
